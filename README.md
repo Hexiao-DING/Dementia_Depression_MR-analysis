@@ -44,7 +44,7 @@ source("Install_All_Packages.R")
 source("Demo_Test_Analysis.R")
 
 # 3. Run full analysis
-source("MR_Debug_Script.R")
+source("Main analysis.R")
 ```
 
 ---
@@ -124,7 +124,7 @@ source("Install_All_Packages.R")
 MR_pipeline_demo/
 │
 ├── 📜 Core Analysis Scripts
-│   ├── MR_Debug_Script.R              ← Main analysis (UVMR + MVMR + Mediation)
+│   ├── Main analysis.R              ← Main analysis (UVMR + MVMR + Mediation)
 │   ├── Install_All_Packages.R         ← Automated package installation
 │   ├── Demo_Test_Analysis.R           ← Quick test (5-15 min)
 │   ├── Results_Filter_Helper.R        ← Result filtering & summarization
