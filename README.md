@@ -40,32 +40,11 @@ This pipeline provides a complete implementation of three complementary Mendelia
 # 1. Install all required packages
 source("Install_All_Packages.R")
 
-# 2. Quick test (5-15 minutes)
+# 2. Quick test
 source("Demo_Test_Analysis.R")
 
 # 3. Run full analysis
 source("MR_Debug_Script.R")
-```
-
-### Server Deployment
-
-```bash
-# 1. Upload to server
-rsync -avz MR_pipeline_demo/ user@server:/path/to/MR_pipeline_demo/
-
-# 2. Install packages on server
-ssh user@server
-cd /path/to/MR_pipeline_demo/
-R
-source("Install_All_Packages.R")
-
-# 3. Test with demo
-source("Demo_Test_Analysis.R")
-
-# 4. Run full analysis (background)
-screen -S mr_analysis
-source("MR_Debug_Script.R")
-# Ctrl+A, D to detach
 ```
 
 ---
@@ -156,12 +135,6 @@ MR_pipeline_demo/
 │
 ├── 📚 Documentation
 │   ├── README.md                      ← This file
-│   ├── README_FINAL.md                ← Complete user guide
-│   ├── 快速参考卡_QUICK_CARD.txt      ← Quick reference (Chinese)
-│   ├── 服务器运行指南_Server_Guide.md  ← Server deployment guide
-│   ├── METHOD_COMPLIANCE_CHECK_v2.5.md ← Methodological compliance
-│   ├── MRlap_使用指南_UPDATED.md      ← MRlap usage guide
-│   └── [22 more documentation files]
 │
 ├── 📁 Data Directories (NOT in GitHub - too large)
 │   ├── Covariates_SES/                ← SES indicators (Education, Income, Occupation)
@@ -272,36 +245,6 @@ Based on:
 | Conditional F-statistics (MVMR) | ✅ |
 | **Total: 23/23 requirements** | ✅ **100%** |
 
----
-
-## 📖 Documentation
-
-### Getting Started
-- **README.md** - This file
-- **START_HERE_v2.5.txt** - Quick start guide
-- **快速参考卡_QUICK_CARD.txt** - Quick reference card (Chinese)
-
-### Installation & Testing
-- **Install_All_Packages.R** - Automated package installation
-- **Demo_Test_Analysis.R** - Quick validation test (5-15 min)
-- **如何运行Demo_HOW_TO_RUN_DEMO.txt** - Demo instructions
-
-### Server Deployment
-- **服务器运行指南_Server_Guide.md** - Complete server guide
-- Includes: nohup, screen, SLURM examples
-
-### Detailed Guides
-- **README_FINAL.md** - Complete user guide
-- **METHOD_COMPLIANCE_CHECK_v2.5.md** - Methodological compliance verification
-- **MRlap_使用指南_UPDATED.md** - MRlap detailed guide
-- **✅FINAL_COMPLETE_GUIDE_v2.5.md** - Comprehensive reference
-
-### Technical Documentation
-- **VERSION_HISTORY.md** - Version evolution (v1.0 → v2.5)
-- **MVMR_ADDITION_SUMMARY.md** - MVMR implementation details
-- **CONFOUNDER_CONTROL_FIX_v2.3.md** - Covariate control mechanism
-
----
 
 ## 🎓 Citation
 
@@ -506,40 +449,6 @@ Implementation: `select_combined_ivs_mvmr()` function
 
 ---
 
-## 🔍 Troubleshooting
-
-### Common Issues
-
-**Issue**: Packages not installing
-```r
-# Solution: Use Install_All_Packages.R
-source("Install_All_Packages.R")
-# Check: package_installation_report.csv
-```
-
-**Issue**: No results from UVMR
-```
-# Normal with strict thresholds (p<5e-8)
-# Check console for "IV 数=0" messages
-# Verify GWAS files have genome-wide significant SNPs
-```
-
-**Issue**: MVMR covariate adjustment failing
-```r
-# Verify covariates present
-list.files("Covariates_SES/")  # Should show 3 files
-source("Test_Covariate_Loading.R")
-```
-
-**Issue**: MRlap slow or failing
-```
-# MRlap needs to run LDSC (time-consuming)
-# Requires complete GWAS files
-# Needs internet for reference data download
-# Be patient - this is normal
-```
-
----
 
 ## 🌟 Acknowledgments
 
