@@ -93,9 +93,9 @@ DIR_MEDI   <- file.path(BASE_DIR, "Cerebrospinal fluid metabolomics_Data")
 # For controlling confounding in MVMR analyses
 DIR_COVAR  <- file.path(BASE_DIR, "Covariates_SES")
 # Expected covariates:
-#   - Education: Years of schooling (Lee et al. Nat Genet 2018, n=1,131,881)
-#   - Income: Household income (UK Biobank, n=397,751)
-#   - Occupation: Occupational attainment (Ko et al. Brain 2022, n=248,847)
+#   - Education: Years of schooling 
+#   - Income: Household income 
+#   - Occupation: Occupational attainment 
 
 # Outcome GWAS data directory
 DIR_OUT    <- file.path(BASE_DIR, "Outcomes")
@@ -2242,3 +2242,4 @@ message("  3. For UVMR: Use only concordance_validated=TRUE results")
 message("  4. Filter significant results using Results_Filter_Helper.R")
 message("  5. Visualize results with your preferred tools")
 message(rep("=", 80), "\n")
+
