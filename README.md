@@ -159,36 +159,38 @@ MR_pipeline_demo/
 
 You need to provide (NOT included in repository):
 
-## 1. Exposure GWAS — Multiple Exposure Files
+### 1. Exposure GWAS — Multiple Exposure Files
 
-### (1) **Standardized Circulating Human Plasma Proteome Data**
+#### (1) **Standardized Circulating Human Plasma Proteome Data**
 - `GSCT005806_GRCh37.tsv.gz`
 - `GCST90240120_GRCh37.tsv.gz` → `GCST90243401_GRCh37.tsv.gz`
 
-### (2) **Standardized Circulating Metabolic Biomarkers Data**
+#### (2) **Standardized Circulating Metabolic Biomarkers Data**
 - `GCST90301941.tsv` → `GCST90302173.tsv`
 
-### (3) **Circulating Inflammatory Proteins Data**
+#### (3) **Circulating Inflammatory Proteins Data**
 - `GCST90274758.tsv.gz` → `GCST90274848.tsv.gz`
 
 ---
 
-## 2. Mediator GWAS — Mediator Files
+### 2. Mediator GWAS — Mediator Files
 
-### (1) **Cerebrospinal Fluid Metabolomics Data**
+#### (1) **Cerebrospinal Fluid Metabolomics Data**
 - `GCST90025999_buildGRCh37.tsv.gz` → `GCST90026336_buildGRCh37.tsv.gz`
 
 ---
 
-## 3. Outcome GWAS — Outcome Files
+### 3. Outcome GWAS — Outcome Files
 
-### (1) Dementia types
+#### (1) Dementia types
 
-### (2) Depression types
+#### (2) Depression types
 
+---
 
-4. **Covariate GWAS** - 3 SES indicators:
-Education_GCST003676.txt.gz, Income_GCST90566700.tsv.gz, Occupation_GCST90566702.tsv.gz
+### 4. Covariate GWAS — 3 Social Economic Status
+
+- `Education_GCST003676.txt.gz`, `Income_GCST90566700.tsv.gz`, `Occupation_GCST90566702.tsv.gz`
 
 ---
 
