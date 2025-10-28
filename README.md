@@ -167,10 +167,10 @@ You need to provide (NOT included in repository):
 - GCST90301941.tsv **TO** GCST90302173.tsv
 - (3) Circulating inflammatory proteins_Data
 - GCST90274758.tsv.gz **TO** GCST90274848.tsv.gz
-- 3. **Mediator GWAS** - Mediator files 
+2. **Mediator GWAS** - Mediator files 
 - (1) Cerebrospinal fluid metabolomics_Data
 - GCST90025999_buildGRCh37.tsv.gz **TO** GCST90026336_buildGRCh37.tsv.gz
-- 4. **Outcome GWAS** - Outcome files
+3. **Outcome GWAS** - Outcome files
 - (1) Dementia types:
 
 
