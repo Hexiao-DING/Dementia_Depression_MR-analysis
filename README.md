@@ -159,8 +159,6 @@ MR_pipeline_demo/
 
 You need to provide (NOT included in repository):
 
-# 📊 GWAS Data Overview
-
 ## 1. Exposure GWAS — Multiple Exposure Files
 
 ### (1) **Standardized Circulating Human Plasma Proteome Data**
@@ -191,6 +189,8 @@ You need to provide (NOT included in repository):
 
 4. **Covariate GWAS** - 3 SES indicators:
 Education_GCST003676.txt.gz, Income_GCST90566700.tsv.gz, Occupation_GCST90566702.tsv.gz
+
+---
 
 ### GWAS File Format
 
