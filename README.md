@@ -160,9 +160,25 @@ MR_pipeline_demo/
 You need to provide (NOT included in repository):
 
 1. **Exposure GWAS** - Multiple exposure files
-2. **Mediator GWAS** - Mediator files  
-3. **Outcome GWAS** - Outcome files
+(1) **Standardized** Circulating human plasma proteome_Data
+GSCT005806_GRCh37.tsv.gz;
+GCST90240120_GRCh37.tsv.gz **TO** GCST90243401_GRCh37.tsv.gz
+(2) **Standardized** Circulating metabolic biomarkers_Data
+GCST90301941.tsv **TO** GCST90302173.tsv
+(3) Circulating inflammatory proteins_Data
+GCST90274758.tsv.gz **TO** GCST90274848.tsv.gz
+3. **Mediator GWAS** - Mediator files 
+(1) Cerebrospinal fluid metabolomics_Data
+GCST90025999_buildGRCh37.tsv.gz **TO** GCST90026336_buildGRCh37.tsv.gz
+4. **Outcome GWAS** - Outcome files
+(1) Dementia types:
+
+
+(2) Depression types:
+
+
 4. **Covariate GWAS** - 3 SES indicators:
+Education_GCST003676.txt.gz, Income_GCST90566700.tsv.gz, Occupation_GCST90566702.tsv.gz
 
 ### GWAS File Format
 
