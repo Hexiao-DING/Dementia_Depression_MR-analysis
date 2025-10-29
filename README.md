@@ -503,11 +503,11 @@ Implementation: `select_combined_ivs_mvmr()` function
 
 ---
 
-**Version**: 2.5 FINAL  
-**Last Updated**: 2025-10-29
-**Contributor**: Hexiao Ding (PolyU); Jing Lan (PolyU); Na Li (SCU)
-**Superviosr**: Dr. Jung Sun Yoo (PolyU)
-**Institute**: The Hong Kong Polytechnic University, Sichuan University
+- **Version**: 2.5 FINAL  
+- **Last Updated**: 2025-10-29
+- **Contributor**: Hexiao Ding (PolyU); Jing Lan (PolyU); Na Li (SCU)
+- **Superviosr**: Dr. Jung Sun Yoo (PolyU)
+- **Institute**: The Hong Kong Polytechnic University, Sichuan University
 
 
 
