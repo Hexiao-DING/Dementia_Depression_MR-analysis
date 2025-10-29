@@ -184,18 +184,18 @@ MR_pipeline_demo/
 ### 3️⃣ Outcome GWAS — Outcome Files
 
 #### (1) Dementia Types *(7 traits in total)*
-- Dementia → `Finn-b-F5_DEMENTIA`
-- Alzheimer's Disease → `GCST90012877`
-- Cognitive Performance → `GCST006572`
-- Vascular Dementia → `Finn-b-F5_VASCDEM`
-- Lewy Body Dementia → `GCST90001390`
-- Frontotemporal Dementia → `GCST90558311`
-- Undefined Dementia → `Finn_b_F5_DEMNAS`
+- Dementia → `Finn-b-F5_DEMENTIA.tsv.gz`
+- Alzheimer's Disease → `GCST90012877.tsv.gz`
+- Cognitive Performance → `GCST006572.tsv.gz`
+- Vascular Dementia → `Finn-b-F5_VASCDEM.tsv.gz`
+- Lewy Body Dementia → `GCST90001390.tsv.gz`
+- Frontotemporal Dementia → `GCST90558311.tsv.gz`
+- Undefined Dementia → `Finn_b_F5_DEMNAS.tsv.gz`
 
 #### (2) Depression Types *(3 traits in total)*
-- Depressive Disorders → `GCST90012877`
-- Major Depressive Disorders → `GCST90012877`
-- Mixed Anxiety and Depressive Disorder → `GCST90012877`
+- Depressive Disorders → `GCST90012877.tsv.gz`
+- Major Depressive Disorders → `GCST90012877.tsv.gz`
+- Mixed Anxiety and Depressive Disorder → `GCST90012877.tsv.gz`
 
 ---
 
