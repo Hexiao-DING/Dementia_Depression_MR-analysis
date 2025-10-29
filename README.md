@@ -153,54 +153,57 @@ MR_pipeline_demo/
 
 ---
 
-## 📋 Data Requirements
+# 📋 Data Requirements
 
-### Required GWAS Summary Statistics
+## 🔹 Required GWAS Summary Statistics
+> ⚠️ You need to provide these files (they are **NOT included** in the repository).
 
-You need to provide (NOT included in repository):
+---
 
-### 1. Exposure GWAS — Multiple Exposure Files
+## 1️⃣ Exposure GWAS — Multiple Exposure Files
 
-#### (1) **Standardized Circulating Human Plasma Proteome Data**
+### (1) **Standardized Circulating Human Plasma Proteome Data**
 - `GSCT005806_GRCh37.tsv.gz`
 - `GCST90240120_GRCh37.tsv.gz` → `GCST90243401_GRCh37.tsv.gz`
 
-#### (2) **Standardized Circulating Metabolic Biomarkers Data**
+### (2) **Standardized Circulating Metabolic Biomarkers Data**
 - `GCST90301941.tsv` → `GCST90302173.tsv`
 
-#### (3) **Circulating Inflammatory Proteins Data**
+### (3) **Circulating Inflammatory Proteins Data**
 - `GCST90274758.tsv.gz` → `GCST90274848.tsv.gz`
 
 ---
 
-### 2. Mediator GWAS — Mediator Files
+## 2️⃣ Mediator GWAS — Mediator Files
 
-#### (1) **Cerebrospinal Fluid Metabolomics Data**
+### (1) **Cerebrospinal Fluid Metabolomics Data**
 - `GCST90025999_buildGRCh37.tsv.gz` → `GCST90026336_buildGRCh37.tsv.gz`
 
 ---
 
-### 3. Outcome GWAS — Outcome Files
+## 3️⃣ Outcome GWAS — Outcome Files
 
-#### (1) Dementia types [7 traits in all]
-##### Dementia `Finn-b-F5_DEMENTIA`
-##### Alzheimer's Disease `GCST90012877`
-##### Cognitive Performance `GCST006572`
-##### Vascular Dementia `Finn-b-F5_VASCDEM`
-##### Lewy Body Dementia `GCST90001390`
-##### Frontotemporal Dementia `GCST90558311`
-##### Undefined Dementia `Finn_b_F5_DEMNAS`
+### (1) 🧠 Dementia Types *(7 traits in total)*
+- Dementia → `Finn-b-F5_DEMENTIA`
+- Alzheimer's Disease → `GCST90012877`
+- Cognitive Performance → `GCST006572`
+- Vascular Dementia → `Finn-b-F5_VASCDEM`
+- Lewy Body Dementia → `GCST90001390`
+- Frontotemporal Dementia → `GCST90558311`
+- Undefined Dementia → `Finn_b_F5_DEMNAS`
 
-#### (2) Depression types [3 traits in all]
-##### Depressive Disorders `GCST90012877`
-##### Major Depressive Disorders `GCST90012877`
-##### Mixed Anxiety and Depressive Disorder `GCST90012877`
+### (2) 😔 Depression Types *(3 traits in total)*
+- Depressive Disorders → `GCST90012877`
+- Major Depressive Disorders → `GCST90012877`
+- Mixed Anxiety and Depressive Disorder → `GCST90012877`
 
 ---
 
-### 4. Covariate GWAS — 3 Social Economic Status
+## 4️⃣ Covariate GWAS — Social Economic Status (SES)
 
-- `Education_GCST003676.txt.gz`, `Income_GCST90566700.tsv.gz`, `Occupation_GCST90566702.tsv.gz`
+- Education → `Education_GCST003676.txt.gz`  
+- Income → `Income_GCST90566700.tsv.gz`  
+- Occupation → `Occupation_GCST90566702.tsv.gz`
 
 ---
 
