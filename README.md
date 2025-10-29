@@ -182,9 +182,19 @@ You need to provide (NOT included in repository):
 
 ### 3. Outcome GWAS — Outcome Files
 
-#### (1) Dementia types
+#### (1) Dementia types [7 traits in all]
+##### Dementia `Finn-b-F5_DEMENTIA`
+##### Alzheimer's Disease `GCST90012877`
+##### Cognitive Performance `GCST006572`
+##### Vascular Dementia `Finn-b-F5_VASCDEM`
+##### Lewy Body Dementia `GCST90001390`
+##### Frontotemporal Dementia `GCST90558311`
+##### Undefined Dementia `Finn_b_F5_DEMNAS`
 
-#### (2) Depression types
+#### (2) Depression types [3 traits in all]
+##### Depressive Disorders `GCST90012877`
+##### Major Depressive Disorders `GCST90012877`
+##### Mixed Anxiety and Depressive Disorder `GCST90012877`
 
 ---
 
