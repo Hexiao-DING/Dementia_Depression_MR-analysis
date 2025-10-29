@@ -349,7 +349,7 @@ devtools::install_github("n-mounier/MRlap")
    - Occupation
    - Place in: `Covariates_SES/`
 
-3. **Configure paths** in `MR_Debug_Script.R` (lines 61-72)
+3. **Configure paths** in `Main Analysis.R` (lines 61-72)
 
 ### Step 2: Test Installation
 
@@ -368,7 +368,7 @@ source("Demo_Test_Analysis.R")
 
 ```r
 # Full analysis (may take hours depending on data size)
-source("MR_Debug_Script.R")
+source("Main Analysis.R")
 ```
 
 ### Step 4: Filter Results
