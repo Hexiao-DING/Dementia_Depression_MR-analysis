@@ -153,7 +153,7 @@ MR_pipeline_demo/
 
 ---
 
-## 📋 Data Requirements
+## 📋 Data Requirements [All data are EU population]
 
 ### 🔹 Required GWAS Summary Statistics
 > ⚠️ You need to provide these files (they are **NOT included** in the repository).
