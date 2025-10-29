@@ -183,7 +183,7 @@ MR_pipeline_demo/
 
 ### 3️⃣ Outcome GWAS — Outcome Files
 
-#### (1) 🧠 Dementia Types *(7 traits in total)*
+#### (1) Dementia Types *(7 traits in total)*
 - Dementia → `Finn-b-F5_DEMENTIA`
 - Alzheimer's Disease → `GCST90012877`
 - Cognitive Performance → `GCST006572`
@@ -192,7 +192,7 @@ MR_pipeline_demo/
 - Frontotemporal Dementia → `GCST90558311`
 - Undefined Dementia → `Finn_b_F5_DEMNAS`
 
-#### (2) 😔 Depression Types *(3 traits in total)*
+#### (2) Depression Types *(3 traits in total)*
 - Depressive Disorders → `GCST90012877`
 - Major Depressive Disorders → `GCST90012877`
 - Mixed Anxiety and Depressive Disorder → `GCST90012877`
