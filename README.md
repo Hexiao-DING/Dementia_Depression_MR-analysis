@@ -8,8 +8,6 @@ This Mendelian Randomization pipeline provides a comprehensive and methodologica
 [![Compliance](https://img.shields.io/badge/Compliance-100%25-brightgreen)](https://github.com/yechaojie/mental_aging)
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)]()
 
-**Complete implementation of Mendelian Randomization analyses following Nature Human Behaviour 2024 standards**
-
 ---
 
 ## 📋 Overview
