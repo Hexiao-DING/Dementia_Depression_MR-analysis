@@ -1,4 +1,4 @@
-# Dementia & Depression Traits and Molecular Epidemiology: 
+# Dementia & Depression Traits and Molecular Epidemiology 
 # R code for MR-analysis
 This Mendelian Randomization pipeline provides a comprehensive and methodologically rigorous framework for causal inference in complex traits. It implements a complete analytical workflow integrating univariable MR (UVMR), multivariable MR (MVMR) with socioeconomic status covariate adjustment, and formal mediation analysis. The pipeline incorporates robust sensitivity analyses for pleiotropy, heterogeneity, and sample overlap using MR-Egger, MR-PRESSO, and MRlap, while ensuring methodological validity through FDR correction, reverse MR testing, and concordance validation. Designed for high-dimensional molecular epidemiology studies, it enables reliable discovery of causal protein-disease and metabolite-disease relationships with comprehensive confounder control.
 
