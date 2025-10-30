@@ -217,9 +217,17 @@ MR_pipeline_demo/
 - **Citation**: Kurki, M. I., Karjalainen, J., Palta, P., Sipilä, T. P., Kristiansson, K., Donner, K. M., ... & Waring, J. (2023). FinnGen provides genetic insights from a well-phenotyped isolated population. Nature, 613(7944), 508-518.
 
 #### (2) Depression Types *(3 traits in total)*
-- Depressive Disorders → `GCST90476922.tsv.gz`
-- Major Depressive Disorders → `GCST90468123.tsv.gz`
-- Mixed Anxiety and Depressive Disorder → `GCST90225526.tsv.gz`
+##### Depressive Disorders → `GCST90476922.tsv.gz`
+- Source: `https://www.ebi.ac.uk/gwas/publications/39024449`
+- **Citation**: Verma, A., Huffman, J. E., Rodriguez, A., Conery, M., Liu, M., Ho, Y. L., ... & Liao, K. P. (2024). Diversity and scale: Genetic architecture of 2068 traits in the VA Million Veteran Program. Science, 385(6706), eadj1182.
+
+##### Major Depressive Disorders → `GCST90468123.tsv.gz`
+- Source: `https://www.ebi.ac.uk/gwas/publications/39789286`
+- **Citation**: Loya, H., Kalantzis, G., Cooper, F., & Palamara, P. F. (2025). A scalable variational inference approach for increased mixed-model association power. Nature Genetics, 57(2), 461-468.
+
+##### Mixed Anxiety and Depressive Disorder → `GCST90225526.tsv.gz`
+- Source: `https://www.ebi.ac.uk/gwas/publications/37259642`
+- **Citation**: Brasher, M. S., Mize, T. J., Thomas, A. L., Hoeffer, C. A., Ehringer, M. A., & Evans, L. M. (2023). Testing associations between human anxiety and genes previously implicated by mouse anxiety models. Genes, Brain and Behavior, 22(6), e12851.
 
 ---
 
