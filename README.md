@@ -165,7 +165,7 @@ MR_pipeline_demo/
 #### (1) **Standardized Circulating Human Plasma Proteome Data**
 - `GSCT005806_GRCh37.tsv.gz`
 - `GCST90240120_GRCh37.tsv.gz` → `GCST90243401_GRCh37.tsv.gz`
-
+- Source: `https://www.ebi.ac.uk/gwas/publications/29875488`
 #### (2) **Standardized Circulating Metabolic Biomarkers Data**
 - `GCST90301941.tsv` → `GCST90302173.tsv`
 
