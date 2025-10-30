@@ -2,8 +2,6 @@
 # R code for MR-analysis
 This Mendelian Randomization pipeline provides a comprehensive and methodologically rigorous framework for causal inference in complex traits. It implements a complete analytical workflow integrating univariable MR (UVMR), multivariable MR (MVMR) with socioeconomic status covariate adjustment, and formal mediation analysis. The pipeline incorporates robust sensitivity analyses for pleiotropy, heterogeneity, and sample overlap using MR-Egger, MR-PRESSO, and MRlap, while ensuring methodological validity through FDR correction, reverse MR testing, and concordance validation. Designed for high-dimensional molecular epidemiology studies, it enables reliable discovery of causal protein-disease and metabolite-disease relationships with comprehensive confounder control.
 
-# Comprehensive Mendelian Randomization Analysis Pipeline
-
 [![R Version](https://img.shields.io/badge/R-%E2%89%A54.0.0-blue)](https://www.r-project.org/)
 [![Compliance](https://img.shields.io/badge/Compliance-100%25-brightgreen)](https://github.com/yechaojie/mental_aging)
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)]()
