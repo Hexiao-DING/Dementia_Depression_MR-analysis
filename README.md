@@ -211,9 +211,17 @@ MR_pipeline_demo/
 
 ### 4️⃣ Covariate GWAS — Social Economic Status (SES)
 
-- Education → `Education_GCST003676.txt.gz`  
-- Income → `Income_GCST90566700.tsv.gz`  
-- Occupation → `Occupation_GCST90566702.tsv.gz`
+#### (1) Education → `Education_GCST003676.txt.gz`
+- Source: `https://www.ebi.ac.uk/gwas/publications/27225129`
+- **Citation**: Okbay, A., Beauchamp, J. P., Fontana, M. A., Lee, J. J., Pers, T. H., Rietveld, C. A., ... & Rustichini, A. (2016). Genome-wide association study identifies 74 loci associated with educational attainment. Nature, 533(7604), 539-542.
+
+#### (2) Income → `Income_GCST90566700.tsv.gz`  
+- Source: `https://www.ebi.ac.uk/gwas/publications/27225129](https://www.ebi.ac.uk/gwas/publications/40360725`
+- **Citation**: Xia, C., Lu, Y., Zhou, Z., Marchi, M., Kweon, H., Ning, Y., ... & Hill, W. D. (2025). Deciphering the influence of socioeconomic status on brain structure: insights from Mendelian randomization. Molecular Psychiatry, 1-14.
+
+#### (3) Occupation → `Occupation_GCST90566702.tsv.gz`
+- Source:  `https://www.ebi.ac.uk/gwas/publications/27225129](https://www.ebi.ac.uk/gwas/publications/40360725`
+- **Citation**: Xia, C., Lu, Y., Zhou, Z., Marchi, M., Kweon, H., Ning, Y., ... & Hill, W. D. (2025). Deciphering the influence of socioeconomic status on brain structure: insights from Mendelian randomization. Molecular Psychiatry, 1-14.
 
 ---
 
