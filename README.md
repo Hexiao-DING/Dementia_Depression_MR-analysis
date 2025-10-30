@@ -203,9 +203,9 @@ MR_pipeline_demo/
 - Undefined Dementia → `Finn_b_F5_DEMNAS.tsv.gz`
 
 #### (2) Depression Types *(3 traits in total)*
-- Depressive Disorders → `GCST90012877.tsv.gz`
-- Major Depressive Disorders → `GCST90012877.tsv.gz`
-- Mixed Anxiety and Depressive Disorder → `GCST90012877.tsv.gz`
+- Depressive Disorders → `GCST90476922.tsv.gz`
+- Major Depressive Disorders → `GCST90468123.tsv.gz`
+- Mixed Anxiety and Depressive Disorder → `GCST90225526.tsv.gz`
 
 ---
 
