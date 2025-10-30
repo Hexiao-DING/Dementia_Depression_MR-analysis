@@ -194,13 +194,27 @@ MR_pipeline_demo/
 ### 3️⃣ Outcome GWAS — Outcome Files
 
 #### (1) Dementia Types *(7 traits in total)*
-- Dementia → `Finn-b-F5_DEMENTIA.tsv.gz`
-- Alzheimer's Disease → `GCST90012877.tsv.gz`
-- Cognitive Performance → `GCST006572.tsv.gz`
-- Vascular Dementia → `Finn-b-F5_VASCDEM.tsv.gz`
-- Lewy Body Dementia → `GCST90001390.tsv.gz`
-- Frontotemporal Dementia → `GCST90558311.tsv.gz`
-- Undefined Dementia → `Finn_b_F5_DEMNAS.tsv.gz`
+##### Dementia → `Finn-b-F5_DEMENTIA.tsv.gz`
+- Source: `https://r10.risteys.finngen.fi/endpoints/F5_DEMENTIA`
+- **Citation**: Kurki, M. I., Karjalainen, J., Palta, P., Sipilä, T. P., Kristiansson, K., Donner, K. M., ... & Waring, J. (2023). FinnGen provides genetic insights from a well-phenotyped isolated population. Nature, 613(7944), 508-518.
+##### Alzheimer's Disease → `GCST90012877.tsv.gz`
+- Source: `https://r10.risteys.finngen.fi/endpoints/F5_DEMENTIA](https://www.ebi.ac.uk/gwas/publications/33589840`
+- **Citation**: Schwartzentruber, J., Cooper, S., Liu, J. Z., Barrio-Hernandez, I., Bello, E., Kumasaka, N., ... & Bassett, A. (2021). Genome-wide meta-analysis, fine-mapping and integrative prioritization implicate new Alzheimer’s disease risk genes. Nature genetics, 53(3), 392-402.
+##### Cognitive Performance → `GCST006572.tsv.gz`
+- Source: `https://www.ebi.ac.uk/gwas/publications/30038396`
+- **Citation**: Lee, J. J., Wedow, R., Okbay, A., Kong, E., Maghzian, O., Zacher, M., ... & Cesarini, D. (2018). Gene discovery and polygenic prediction from a genome-wide association study of educational attainment in 1.1 million individuals. Nature genetics, 50(8), 1112-1121.
+##### Vascular Dementia → `Finn-b-F5_VASCDEM.tsv.gz`
+- Source: `https://r9.risteys.finngen.fi/endpoints/F5_VASCDEM`
+- **Citation**: Kurki, M. I., Karjalainen, J., Palta, P., Sipilä, T. P., Kristiansson, K., Donner, K. M., ... & Waring, J. (2023). FinnGen provides genetic insights from a well-phenotyped isolated population. Nature, 613(7944), 508-518.
+##### Lewy Body Dementia → `GCST90001390.tsv.gz`
+- Source: `https://www.ebi.ac.uk/gwas/publications/33589841`
+- **Citation**: Chia, R., Sabir, M. S., Bandres-Ciga, S., Saez-Atienzar, S., Reynolds, R. H., Gustavsson, E., ... & Dickson, D. W. (2021). Genome sequencing analysis identifies new loci associated with Lewy body dementia and provides insights into its genetic architecture. Nature genetics, 53(3), 294-303.
+##### Frontotemporal Dementia → `GCST90558311.tsv.gz`
+- Source: `https://www.ebi.ac.uk/gwas/publications/40280976`
+- **Citation**: Pottier, C., Küçükali, F., Baker, M., Batzler, A., Jenkins, G. D., van Blitterswijk, M., ... & Rademakers, R. (2025). Deciphering distinct genetic risk factors for FTLD-TDP pathological subtypes via whole-genome sequencing. Nature communications, 16(1), 3914.
+##### Undefined Dementia → `Finn_b_F5_DEMNAS.tsv.gz`
+- Source: `https://r12.risteys.finngen.fi/endpoints/F5_DEMNAS`
+- **Citation**: Kurki, M. I., Karjalainen, J., Palta, P., Sipilä, T. P., Kristiansson, K., Donner, K. M., ... & Waring, J. (2023). FinnGen provides genetic insights from a well-phenotyped isolated population. Nature, 613(7944), 508-518.
 
 #### (2) Depression Types *(3 traits in total)*
 - Depressive Disorders → `GCST90476922.tsv.gz`
