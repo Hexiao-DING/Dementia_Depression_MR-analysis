@@ -168,12 +168,17 @@ MR_pipeline_demo/
 - Data pre-processing strategies: 
 
 - Source: `https://www.ebi.ac.uk/gwas/publications/29875488`
-- Citation: Sun, B. B., Maranville, J. C., Peters, J. E., Stacey, D., Staley, J. R., Blackshaw, J., ... & Butterworth, A. S. (2018). Genomic atlas of the human plasma proteome. Nature, 558(7708), 73-79.
+- **Citation**: Sun, B. B., Maranville, J. C., Peters, J. E., Stacey, D., Staley, J. R., Blackshaw, J., ... & Butterworth, A. S. (2018). Genomic atlas of the human plasma proteome. Nature, 558(7708), 73-79.
 #### (2) **Standardized Circulating Metabolic Biomarkers Data**
 - `GCST90301941.tsv` → `GCST90302173.tsv`
+- Data pre-processing strategies: 
 
+- Source: `https://www.ebi.ac.uk/gwas/publications/29875488](https://www.ebi.ac.uk/gwas/publications/38448586`
+- **Citation**: Karjalainen, M. K., Karthikeyan, S., Oliver-Williams, C., Sliz, E., Allara, E., Fung, W. T., ... & Kettunen, J. (2024). Genome-wide characterization of circulating metabolic biomarkers. Nature, 628(8006), 130-138.
 #### (3) **Circulating Inflammatory Proteins Data**
 - `GCST90274758.tsv.gz` → `GCST90274848.tsv.gz`
+- Source: `https://www.ebi.ac.uk/gwas/publications/29875488](https://www.ebi.ac.uk/gwas/publications/37563310`
+- **Citation**: Zhao, J. H., Stacey, D., Eriksson, N., Macdonald-Dunlop, E., Hedman, Å. K., Kalnapenkis, A., ... & Peters, J. E. (2023). Genetics of circulating inflammatory proteins identifies drivers of immune-mediated disease risk and therapeutic targets. Nature immunology, 24(9), 1540-1551.
 
 ---
 
