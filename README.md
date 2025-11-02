@@ -154,7 +154,7 @@ MR_pipeline_demo/
 
 ## 📋 Data Requirements [All data are EU populations]
 
-### 🔹 Required GWAS Summary Statistics, protein quantitative trait loci (pQTLs), and metabolite quantitative trait loci (mQTL)
+### 🔹 Required genome-wide association studies (GWAS) Summary Statistics, protein quantitative trait loci (pQTLs), and metabolite quantitative trait loci (mQTL)
 > ⚠️ You need to provide these files (they are **NOT included** in the repository).
 
 ---
