@@ -123,6 +123,7 @@ source("Install_All_Packages.R")
 MR_pipeline_demo/
 │
 ├── 📜 Core Analysis Scripts
+│   ├── QC_MR_data.R              ← Quality control for MR data
 │   ├── Main analysis.R              ← Main analysis (UVMR + MVMR + Mediation)
 │   ├── Install_All_Packages.R         ← Automated package installation
 │   ├── Demo_Test_Analysis.R           ← Quick test (5-15 min)
@@ -164,14 +165,12 @@ MR_pipeline_demo/
 #### (1) **Standardized Circulating Human Plasma Proteome Data (pQTLs)**
 - `GSCT005806_GRCh37.tsv.gz`
 - `GCST90240120_GRCh37.tsv.gz` → `GCST90243401_GRCh37.tsv.gz`
-- Data pre-processing strategies: 
-
+- Data pre-processing strategies: Standardize pQTLs into homogeneous format using MungeSumstats version 1.14.1.
 - Source: `https://www.ebi.ac.uk/gwas/publications/29875488`
 - **Citation**: Sun, B. B., Maranville, J. C., Peters, J. E., Stacey, D., Staley, J. R., Blackshaw, J., ... & Butterworth, A. S. (2018). Genomic atlas of the human plasma proteome. Nature, 558(7708), 73-79.
 #### (2) **Standardized Circulating Metabolic Biomarkers Data (GWAS)**
 - `GCST90301941.tsv` → `GCST90302173.tsv`
-- Data pre-processing strategies: 
-
+- Data pre-processing strategies: Standardize GWAS summary statistics into homogeneous format using MungeSumstats version 1.14.1.
 - Source: `https://www.ebi.ac.uk/gwas/publications/29875488](https://www.ebi.ac.uk/gwas/publications/38448586`
 - **Citation**: Karjalainen, M. K., Karthikeyan, S., Oliver-Williams, C., Sliz, E., Allara, E., Fung, W. T., ... & Kettunen, J. (2024). Genome-wide characterization of circulating metabolic biomarkers. Nature, 628(8006), 130-138.
 #### (3) **Circulating Inflammatory Proteins Data (pQTLs)**
