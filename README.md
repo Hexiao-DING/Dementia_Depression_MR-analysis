@@ -159,22 +159,22 @@ MR_pipeline_demo/
 
 ---
 
-### 1️⃣ Exposure pQTLs — Multiple Exposure Files
+### 1️⃣ Exposure pQTLs/GWAS — Multiple Exposure Files
 
-#### (1) **Standardized Circulating Human Plasma Proteome Data**
+#### (1) **Standardized Circulating Human Plasma Proteome Data (pQTLs)**
 - `GSCT005806_GRCh37.tsv.gz`
 - `GCST90240120_GRCh37.tsv.gz` → `GCST90243401_GRCh37.tsv.gz`
 - Data pre-processing strategies: 
 
 - Source: `https://www.ebi.ac.uk/gwas/publications/29875488`
 - **Citation**: Sun, B. B., Maranville, J. C., Peters, J. E., Stacey, D., Staley, J. R., Blackshaw, J., ... & Butterworth, A. S. (2018). Genomic atlas of the human plasma proteome. Nature, 558(7708), 73-79.
-#### (2) **Standardized Circulating Metabolic Biomarkers Data**
+#### (2) **Standardized Circulating Metabolic Biomarkers Data (GWAS)**
 - `GCST90301941.tsv` → `GCST90302173.tsv`
 - Data pre-processing strategies: 
 
 - Source: `https://www.ebi.ac.uk/gwas/publications/29875488](https://www.ebi.ac.uk/gwas/publications/38448586`
 - **Citation**: Karjalainen, M. K., Karthikeyan, S., Oliver-Williams, C., Sliz, E., Allara, E., Fung, W. T., ... & Kettunen, J. (2024). Genome-wide characterization of circulating metabolic biomarkers. Nature, 628(8006), 130-138.
-#### (3) **Circulating Inflammatory Proteins Data**
+#### (3) **Circulating Inflammatory Proteins Data (pQTLs)**
 - `GCST90274758.tsv.gz` → `GCST90274848.tsv.gz`
 - Source: `https://www.ebi.ac.uk/gwas/publications/29875488](https://www.ebi.ac.uk/gwas/publications/37563310`
 - **Citation**: Zhao, J. H., Stacey, D., Eriksson, N., Macdonald-Dunlop, E., Hedman, Å. K., Kalnapenkis, A., ... & Peters, J. E. (2023). Genetics of circulating inflammatory proteins identifies drivers of immune-mediated disease risk and therapeutic targets. Nature immunology, 24(9), 1540-1551.
@@ -183,7 +183,7 @@ MR_pipeline_demo/
 
 ### 2️⃣ Mediator mQTLs — Mediator Files
 
-#### (1) **Cerebrospinal Fluid Metabolomics Data**
+#### (1) **Cerebrospinal Fluid Metabolomics Data (mQTLs)**
 - `GCST90025999_buildGRCh37.tsv.gz` → `GCST90026336_buildGRCh37.tsv.gz`
 - Source: `https://www.ebi.ac.uk/gwas/publications/29875488](https://www.ebi.ac.uk/gwas/publications/37563310](https://www.ebi.ac.uk/gwas/publications/33437055`
 - **Citation**: Panyard, D. J., Kim, K. M., Darst, B. F., Deming, Y. K., Zhong, X., Wu, Y., ... & Lu, Q. (2021). Cerebrospinal fluid metabolomics identifies 19 brain-related phenotype associations. Communications biology, 4(1), 63.
@@ -192,7 +192,7 @@ MR_pipeline_demo/
 
 ### 3️⃣ Outcome GWAS — Outcome Files
 
-#### (1) Dementia Types *(7 traits in total)*
+#### (1) Dementia Types *(7 traits in total, GWAS)*
 ##### Dementia → `Finn-b-F5_DEMENTIA.tsv.gz`
 - Source: `https://r10.risteys.finngen.fi/endpoints/F5_DEMENTIA`
 - **Citation**: Kurki, M. I., Karjalainen, J., Palta, P., Sipilä, T. P., Kristiansson, K., Donner, K. M., ... & Waring, J. (2023). FinnGen provides genetic insights from a well-phenotyped isolated population. Nature, 613(7944), 508-518.
@@ -215,7 +215,7 @@ MR_pipeline_demo/
 - Source: `https://r12.risteys.finngen.fi/endpoints/F5_DEMNAS`
 - **Citation**: Kurki, M. I., Karjalainen, J., Palta, P., Sipilä, T. P., Kristiansson, K., Donner, K. M., ... & Waring, J. (2023). FinnGen provides genetic insights from a well-phenotyped isolated population. Nature, 613(7944), 508-518.
 
-#### (2) Depression Types *(3 traits in total)*
+#### (2) Depression Types *(3 traits in total, GWAS)*
 ##### Depressive Disorders → `GCST90476922.tsv.gz`
 - Source: `https://www.ebi.ac.uk/gwas/publications/39024449`
 - **Citation**: Verma, A., Huffman, J. E., Rodriguez, A., Conery, M., Liu, M., Ho, Y. L., ... & Liao, K. P. (2024). Diversity and scale: Genetic architecture of 2068 traits in the VA Million Veteran Program. Science, 385(6706), eadj1182.
@@ -230,7 +230,7 @@ MR_pipeline_demo/
 
 ---
 
-### 4️⃣ Covariate GWAS — Social Economic Status (SES)
+### 4️⃣ Covariate GWAS — Social Economic Status *(SES, 3 traits in total, GWAS)*
 
 #### (1) Education → `Education_GCST003676.txt.gz`
 - Source: `https://www.ebi.ac.uk/gwas/publications/27225129`
