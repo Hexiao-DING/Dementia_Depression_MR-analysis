@@ -171,11 +171,11 @@ MR_pipeline_demo/
 #### (2) **Standardized Circulating Metabolic Biomarkers Data (GWAS)**
 - `GCST90301941.tsv` → `GCST90302173.tsv`
 - Data pre-processing strategies: Standardize GWAS summary statistics into homogeneous format using `MungeSumstats version 1.14.1`.
-- Source: `https://www.ebi.ac.uk/gwas/publications/29875488](https://www.ebi.ac.uk/gwas/publications/38448586`
+- Source: `https://www.ebi.ac.uk/gwas/publications/38448586`
 - **Citation**: Karjalainen, M. K., Karthikeyan, S., Oliver-Williams, C., Sliz, E., Allara, E., Fung, W. T., ... & Kettunen, J. (2024). Genome-wide characterization of circulating metabolic biomarkers. Nature, 628(8006), 130-138.
 #### (3) **Circulating Inflammatory Proteins Data (pQTLs)**
 - `GCST90274758.tsv.gz` → `GCST90274848.tsv.gz`
-- Source: `https://www.ebi.ac.uk/gwas/publications/29875488](https://www.ebi.ac.uk/gwas/publications/37563310`
+- Source: `https://www.ebi.ac.uk/gwas/publications/37563310`
 - **Citation**: Zhao, J. H., Stacey, D., Eriksson, N., Macdonald-Dunlop, E., Hedman, Å. K., Kalnapenkis, A., ... & Peters, J. E. (2023). Genetics of circulating inflammatory proteins identifies drivers of immune-mediated disease risk and therapeutic targets. Nature immunology, 24(9), 1540-1551.
 
 ---
