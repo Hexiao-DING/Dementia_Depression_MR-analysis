@@ -183,7 +183,7 @@ MR_pipeline_demo/
 
 ### 2️⃣ Mediator mQTLs — Mediator Files
 
-#### (1) **Cerebrospinal Fluid Metabolomics Data (mQTLs)**
+#### (1) **Cerebrospinal Fluid Metabolomics Data (metabQTLs)**
 - `GCST90025999_buildGRCh37.tsv.gz` → `GCST90026336_buildGRCh37.tsv.gz`
 - Source: `https://www.ebi.ac.uk/gwas/publications/29875488](https://www.ebi.ac.uk/gwas/publications/37563310](https://www.ebi.ac.uk/gwas/publications/33437055`
 - **Citation**: Panyard, D. J., Kim, K. M., Darst, B. F., Deming, Y. K., Zhong, X., Wu, Y., ... & Lu, Q. (2021). Cerebrospinal fluid metabolomics identifies 19 brain-related phenotype associations. Communications biology, 4(1), 63.
