@@ -184,7 +184,7 @@ MR_pipeline_demo/
 
 #### (1) **Cerebrospinal Fluid Metabolomics Data (metabQTLs)**
 - `GCST90025999_buildGRCh37.tsv.gz` → `GCST90026336_buildGRCh37.tsv.gz`
-- Source: `https://www.ebi.ac.uk/gwas/publications/29875488](https://www.ebi.ac.uk/gwas/publications/37563310](https://www.ebi.ac.uk/gwas/publications/33437055`
+- Source: `https://www.ebi.ac.uk/gwas/publications/33437055`
 - **Citation**: Panyard, D. J., Kim, K. M., Darst, B. F., Deming, Y. K., Zhong, X., Wu, Y., ... & Lu, Q. (2021). Cerebrospinal fluid metabolomics identifies 19 brain-related phenotype associations. Communications biology, 4(1), 63.
 
 ---
@@ -196,7 +196,7 @@ MR_pipeline_demo/
 - Source: `https://r10.risteys.finngen.fi/endpoints/F5_DEMENTIA`
 - **Citation**: Kurki, M. I., Karjalainen, J., Palta, P., Sipilä, T. P., Kristiansson, K., Donner, K. M., ... & Waring, J. (2023). FinnGen provides genetic insights from a well-phenotyped isolated population. Nature, 613(7944), 508-518.
 ##### Alzheimer's Disease → `GCST90012877.tsv.gz`
-- Source: `https://r10.risteys.finngen.fi/endpoints/F5_DEMENTIA](https://www.ebi.ac.uk/gwas/publications/33589840`
+- Source: `https://www.ebi.ac.uk/gwas/publications/33589840`
 - **Citation**: Schwartzentruber, J., Cooper, S., Liu, J. Z., Barrio-Hernandez, I., Bello, E., Kumasaka, N., ... & Bassett, A. (2021). Genome-wide meta-analysis, fine-mapping and integrative prioritization implicate new Alzheimer’s disease risk genes. Nature genetics, 53(3), 392-402.
 ##### Cognitive Performance → `GCST006572.tsv.gz`
 - Source: `https://www.ebi.ac.uk/gwas/publications/30038396`
@@ -245,7 +245,7 @@ MR_pipeline_demo/
 
 ---
 
-### GWAS File Format
+### File Format
 
 **Required columns** (flexible naming):
 - SNP identifier: `SNP`, `rsid`, `rs_id`, `MarkerName`, `variant`
