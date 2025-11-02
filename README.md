@@ -159,7 +159,7 @@ MR_pipeline_demo/
 
 ---
 
-### 1️⃣ Exposure protein quantitative trait loci (pQTLs) — Multiple Exposure Files
+### 1️⃣ Exposure pQTLs — Multiple Exposure Files
 
 #### (1) **Standardized Circulating Human Plasma Proteome Data**
 - `GSCT005806_GRCh37.tsv.gz`
@@ -181,7 +181,7 @@ MR_pipeline_demo/
 
 ---
 
-### 2️⃣ Mediator metabolite quantitative trait loci (mQTL) — Mediator Files
+### 2️⃣ Mediator mQTL — Mediator Files
 
 #### (1) **Cerebrospinal Fluid Metabolomics Data**
 - `GCST90025999_buildGRCh37.tsv.gz` → `GCST90026336_buildGRCh37.tsv.gz`
