@@ -137,8 +137,8 @@ MR_pipeline_demo/
 │
 ├── 📁 Data Directories (NOT in GitHub - too large)
 │   ├── Covariates_SES                 ← Social-economic statu indicators (Education, Income, Occupation; with descriptions)
-│   ├── Exposure Data Directories      ← GWAS data, human proteins (A list and descriptions)
-│   ├── Mediator Data Directories      ← GWAS data, CSFs (A list and descriptions)
+│   ├── Exposure Data Directories      ← pQTLs data, human proteins (A list and descriptions)
+│   ├── Mediator Data Directories      ← mQTLs data, CSFs (A list and descriptions)
 │   ├── Outcome Data Directories       ← GWAS data, Dementia types and Depression types (A list and descriptions)
 │   └── local_clump                    ← LD reference panel
 │
