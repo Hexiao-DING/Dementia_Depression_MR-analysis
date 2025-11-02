@@ -154,7 +154,7 @@ MR_pipeline_demo/
 
 ## 📋 Data Requirements [All data are EU populations]
 
-### 🔹 Required genome-wide association studies (GWAS) Summary Statistics, protein quantitative trait loci (pQTLs), and metabolite quantitative trait loci (mQTL)
+### 🔹 Required genome-wide association studies (GWAS) Summary Statistics, protein quantitative trait loci (pQTLs), and metabolite quantitative trait loci (mQTLs)
 > ⚠️ You need to provide these files (they are **NOT included** in the repository).
 
 ---
@@ -181,7 +181,7 @@ MR_pipeline_demo/
 
 ---
 
-### 2️⃣ Mediator mQTL — Mediator Files
+### 2️⃣ Mediator mQTLs — Mediator Files
 
 #### (1) **Cerebrospinal Fluid Metabolomics Data**
 - `GCST90025999_buildGRCh37.tsv.gz` → `GCST90026336_buildGRCh37.tsv.gz`
