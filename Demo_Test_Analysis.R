@@ -33,8 +33,8 @@ current_wd <- getwd()
 cat("[INFO] Current working directory: ", current_wd, "\n")
 
 # Check if we're in the right directory
-if(!file.exists("MR_Debug_Script.R")){
-  cat("\n[WARNING] MR_Debug_Script.R not found in current directory!\n")
+if(!file.exists("Main analysis.R")){
+  cat("\n[WARNING] Main analysis.R not found in current directory!\n")
   cat("Please set working directory to MR_pipeline_demo folder:\n")
   cat("  setwd('D:/Projects_data&code/MR_pipeline_demo')\n")
   cat("Or run from R Console in the correct folder.\n\n")
@@ -146,13 +146,13 @@ script_dir <- if(exists("BASE_DIR") && dir.exists(BASE_DIR)){
 }
 
 # Path to main script
-main_script <- file.path(script_dir, "MR_Debug_Script.R")
+main_script <- file.path(script_dir, "Main analysis.R")
 
 if(!file.exists(main_script)){
   # Try alternative: script in current directory
-  main_script <- "MR_Debug_Script.R"
+  main_script <- "Main analysis.R"
   if(!file.exists(main_script)){
-    stop("\n[ERROR] Cannot find MR_Debug_Script.R\n",
+    stop("\n[ERROR] Cannot find Main analysis.R\n",
          "  Please run this script from the MR_pipeline_demo directory\n",
          "  Current directory: ", getwd(), "\n",
          "  Or set working directory: setwd('D:/Projects_data&code/MR_pipeline_demo')\n")
@@ -425,7 +425,7 @@ if(checks_passed >= total_checks * 0.66){  # At least 2/3 checks passed
   cat("✅ DEMO TEST PASSED\n\n")
   cat("The pipeline is working correctly!\n\n")
   cat("You can now run the full analysis:\n")
-  cat("  source('MR_Debug_Script.R')\n\n")
+  cat("  source('Main analysis.R')\n\n")
   cat("Note: Full analysis will take longer (hours vs minutes for demo)\n")
   cat("Consider running on server overnight or in background\n\n")
 } else {
@@ -450,7 +450,7 @@ cat(rep("=", 80), "\n", sep="")
 cat("Next Steps:\n")
 cat("  1. Review demo results in ", basename(DIR_DEMO), "/ folder\n", sep="")
 cat("  2. Check output CSV structure\n")
-cat("  3. If satisfied, run full analysis: source('MR_Debug_Script.R')\n")
+cat("  3. If satisfied, run full analysis: source('Main analysis.R')\n")
 cat("  4. For server: Consider using nohup or screen for long-running jobs\n")
 cat(rep("=", 80), "\n\n", sep="")
 
@@ -475,4 +475,5 @@ saveRDS(demo_log, file.path(DIR_DEMO, "demo_log.rds"))
 
 cat("Demo log saved to: ", DIR_DEMO, "/demo_log.rds\n\n", sep="")
 cat("✓ Demo test complete!\n\n")
+
 
