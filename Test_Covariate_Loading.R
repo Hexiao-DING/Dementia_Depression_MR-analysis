@@ -148,7 +148,7 @@ if(success_count > 0){
   cat("Testing column standardization with actual code...\n\n")
   
   # Source just the necessary functions from main script
-  source("MR_Debug_Script.R", local=TRUE)
+  source("Main analysis.R", local=TRUE)
   
   for(file_path in files){
     file_name <- basename(file_path)
@@ -184,4 +184,5 @@ if(success_count > 0){
 cat(rep("=", 80), "\n")
 cat("TEST COMPLETE\n")
 cat(rep("=", 80), "\n\n")
+
 
