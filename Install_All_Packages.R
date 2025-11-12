@@ -294,7 +294,7 @@ if(all_critical_ok && mvmr_ok){
   cat("Next:\n")
   cat("  1. Verify covariate files are in Covariates_SES/ folder\n")
   cat("  2. (Optional) Test with: source('Demo_Test_Analysis.R')\n")
-  cat("  3. Run full analysis: source('MR_Debug_Script.R')\n\n")
+  cat("  3. Run full analysis: source('Main analysis.R')\n\n")
   
   if(!mrlap_ok){
     cat("⚠️  MRlap not installed:\n")
@@ -350,4 +350,5 @@ cat(rep("=", 80), "\n\n", sep="")
 
 # Return installation status
 invisible(all(report$Installed[report$Critical == "Yes" | report$Critical == "YES - MVMR!"]))
+
 
