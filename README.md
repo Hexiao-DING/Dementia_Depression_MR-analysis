@@ -57,6 +57,8 @@
 ## 🎯 Overview
 
 This pipeline provides a **comprehensive, methodologically rigorous** framework for Mendelian Randomization (MR) analysis in dementia–depression comorbidity research. It implements univariable MR (UVMR), multivariable MR (MVMR), and mediation analysis following best practices established in high-impact publications.
+<img width="1024" height="572" alt="173b1ab31106b25d678f2d308d3f6ae5" src="https://github.com/user-attachments/assets/e93a559d-2001-4534-b6f9-753277927480" />
+
 
 ### Key Objectives
 
