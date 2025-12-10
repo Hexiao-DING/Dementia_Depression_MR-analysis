@@ -117,6 +117,152 @@ This pipeline provides a **comprehensive, methodologically rigorous** framework 
 - 🔍 **Combined IV Selection**: Standard-compliant instrument selection for MVMR
 - 📚 **Well-Documented**: Comprehensive documentation and examples
 
+- ## 📋 Data Requirements [All data are EU populations]
+
+### 🔹 Required genome-wide association studies (GWAS) Summary Statistics, protein quantitative trait loci (pQTLs), and metabolite quantitative trait loci (mQTLs)
+> ⚠️ You need to provide these files (they are **NOT included** in the repository).
+
+---
+
+### 1️⃣ Exposure pQTLs/GWAS — Multiple Exposure Files
+
+#### (1) **Standardized Circulating Human Plasma Proteome Data (pQTLs)**
+- `GSCT005806_GRCh37.tsv.gz`
+- `GCST90240120_GRCh37.tsv.gz` → `GCST90243401_GRCh37.tsv.gz`
+- Data pre-processing strategies: Standardize pQTLs into homogeneous format using `MungeSumstats version 1.14.1`.
+- Source: `https://www.ebi.ac.uk/gwas/publications/29875488`
+- **Citation**: Sun, B. B., Maranville, J. C., Peters, J. E., Stacey, D., Staley, J. R., Blackshaw, J., ... & Butterworth, A. S. (2018). Genomic atlas of the human plasma proteome. Nature, 558(7708), 73-79.
+#### (2) **Standardized Circulating Metabolic Biomarkers Data (GWAS)**
+- `GCST90301941.tsv` → `GCST90302173.tsv`
+- Data pre-processing strategies: Standardize GWAS summary statistics into homogeneous format using `MungeSumstats version 1.14.1`.
+- Source: `https://www.ebi.ac.uk/gwas/publications/38448586`
+- **Citation**: Karjalainen, M. K., Karthikeyan, S., Oliver-Williams, C., Sliz, E., Allara, E., Fung, W. T., ... & Kettunen, J. (2024). Genome-wide characterization of circulating metabolic biomarkers. Nature, 628(8006), 130-138.
+#### (3) **Circulating Inflammatory Proteins Data (pQTLs)**
+- `GCST90274758.tsv.gz` → `GCST90274848.tsv.gz`
+- Source: `https://www.ebi.ac.uk/gwas/publications/37563310`
+- **Citation**: Zhao, J. H., Stacey, D., Eriksson, N., Macdonald-Dunlop, E., Hedman, Å. K., Kalnapenkis, A., ... & Peters, J. E. (2023). Genetics of circulating inflammatory proteins identifies drivers of immune-mediated disease risk and therapeutic targets. Nature immunology, 24(9), 1540-1551.
+
+---
+
+### 2️⃣ Mediator mQTLs — Mediator Files
+## ✨ Features
+
+#### (1) **Cerebrospinal Fluid Metabolomics Data (metabQTLs)**
+- `GCST90025999_buildGRCh37.tsv.gz` → `GCST90026336_buildGRCh37.tsv.gz`
+- Source: `https://www.ebi.ac.uk/gwas/publications/33437055`
+- **Citation**: Panyard, D. J., Kim, K. M., Darst, B. F., Deming, Y. K., Zhong, X., Wu, Y., ... & Lu, Q. (2021). Cerebrospinal fluid metabolomics identifies 19 brain-related phenotype associations. Communications biology, 4(1), 63.
+
+---
+
+### 3️⃣ Outcome GWAS — Outcome Files
+
+#### (1) Dementia Types *(7 traits in total, GWAS)*
+##### Dementia → `Finn-b-F5_DEMENTIA.tsv.gz`
+- Source: `https://r10.risteys.finngen.fi/endpoints/F5_DEMENTIA`
+- **Citation**: Kurki, M. I., Karjalainen, J., Palta, P., Sipilä, T. P., Kristiansson, K., Donner, K. M., ... & Waring, J. (2023). FinnGen provides genetic insights from a well-phenotyped isolated population. Nature, 613(7944), 508-518.
+##### Alzheimer's Disease → `GCST90012877.tsv.gz`
+- Source: `https://www.ebi.ac.uk/gwas/publications/33589840`
+- **Citation**: Schwartzentruber, J., Cooper, S., Liu, J. Z., Barrio-Hernandez, I., Bello, E., Kumasaka, N., ... & Bassett, A. (2021). Genome-wide meta-analysis, fine-mapping and integrative prioritization implicate new Alzheimer’s disease risk genes. Nature genetics, 53(3), 392-402.
+##### Cognitive Performance → `GCST006572.tsv.gz`
+- Source: `https://www.ebi.ac.uk/gwas/publications/30038396`
+- **Citation**: Lee, J. J., Wedow, R., Okbay, A., Kong, E., Maghzian, O., Zacher, M., ... & Cesarini, D. (2018). Gene discovery and polygenic prediction from a genome-wide association study of educational attainment in 1.1 million individuals. Nature genetics, 50(8), 1112-1121.
+##### Vascular Dementia → `Finn-b-F5_VASCDEM.tsv.gz`
+- Source: `https://r9.risteys.finngen.fi/endpoints/F5_VASCDEM`
+- **Citation**: Kurki, M. I., Karjalainen, J., Palta, P., Sipilä, T. P., Kristiansson, K., Donner, K. M., ... & Waring, J. (2023). FinnGen provides genetic insights from a well-phenotyped isolated population. Nature, 613(7944), 508-518.
+##### Lewy Body Dementia → `GCST90001390.tsv.gz`
+- Source: `https://www.ebi.ac.uk/gwas/publications/33589841`
+- **Citation**: Chia, R., Sabir, M. S., Bandres-Ciga, S., Saez-Atienzar, S., Reynolds, R. H., Gustavsson, E., ... & Dickson, D. W. (2021). Genome sequencing analysis identifies new loci associated with Lewy body dementia and provides insights into its genetic architecture. Nature genetics, 53(3), 294-303.
+##### Frontotemporal Dementia → `GCST90558311.tsv.gz`
+- Source: `https://www.ebi.ac.uk/gwas/publications/40280976`
+- **Citation**: Pottier, C., Küçükali, F., Baker, M., Batzler, A., Jenkins, G. D., van Blitterswijk, M., ... & Rademakers, R. (2025). Deciphering distinct genetic risk factors for FTLD-TDP pathological subtypes via whole-genome sequencing. Nature communications, 16(1), 3914.
+##### Undefined Dementia → `Finn_b_F5_DEMNAS.tsv.gz`
+- Source: `https://r12.risteys.finngen.fi/endpoints/F5_DEMNAS`
+- **Citation**: Kurki, M. I., Karjalainen, J., Palta, P., Sipilä, T. P., Kristiansson, K., Donner, K. M., ... & Waring, J. (2023). FinnGen provides genetic insights from a well-phenotyped isolated population. Nature, 613(7944), 508-518.
+
+#### (2) Depression Types *(3 traits in total, GWAS)*
+##### Depressive Disorders → `GCST90476922.tsv.gz`
+- Source: `https://www.ebi.ac.uk/gwas/publications/39024449`
+- **Citation**: Verma, A., Huffman, J. E., Rodriguez, A., Conery, M., Liu, M., Ho, Y. L., ... & Liao, K. P. (2024). Diversity and scale: Genetic architecture of 2068 traits in the VA Million Veteran Program. Science, 385(6706), eadj1182.
+
+##### Major Depressive Disorders → `GCST90468123.tsv.gz`
+- Source: `https://www.ebi.ac.uk/gwas/publications/39789286`
+- **Citation**: Loya, H., Kalantzis, G., Cooper, F., & Palamara, P. F. (2025). A scalable variational inference approach for increased mixed-model association power. Nature Genetics, 57(2), 461-468.
+
+##### Mixed Anxiety and Depressive Disorder → `GCST90225526.tsv.gz`
+- Source: `https://www.ebi.ac.uk/gwas/publications/37259642`
+- **Citation**: Brasher, M. S., Mize, T. J., Thomas, A. L., Hoeffer, C. A., Ehringer, M. A., & Evans, L. M. (2023). Testing associations between human anxiety and genes previously implicated by mouse anxiety models. Genes, Brain and Behavior, 22(6), e12851.
+
+---
+
+### 4️⃣ Covariate GWAS — Social Economic Status *(SES, 3 traits in total, GWAS)*
+
+#### (1) Education → `Education_GCST003676.txt.gz`
+- Source: `https://www.ebi.ac.uk/gwas/publications/27225129`
+- **Citation**: Okbay, A., Beauchamp, J. P., Fontana, M. A., Lee, J. J., Pers, T. H., Rietveld, C. A., ... & Rustichini, A. (2016). Genome-wide association study identifies 74 loci associated with educational attainment. Nature, 533(7604), 539-542.
+
+#### (2) Income → `Income_GCST90566700.tsv.gz`  
+- Source: `https://www.ebi.ac.uk/gwas/publications/40360725`
+- **Citation**: Xia, C., Lu, Y., Zhou, Z., Marchi, M., Kweon, H., Ning, Y., ... & Hill, W. D. (2025). Deciphering the influence of socioeconomic status on brain structure: insights from Mendelian randomization. Molecular Psychiatry, 1-14.
+
+#### (3) Occupation → `Occupation_GCST90566702.tsv.gz`
+- Source:  `https://www.ebi.ac.uk/gwas/publications/40360725`
+- **Citation**: Xia, C., Lu, Y., Zhou, Z., Marchi, M., Kweon, H., Ning, Y., ... & Hill, W. D. (2025). Deciphering the influence of socioeconomic status on brain structure: insights from Mendelian randomization. Molecular Psychiatry, 1-14.
+
+---
+
+### File Format
+
+**Required columns** (flexible naming):
+- SNP identifier: `SNP`, `rsid`, `rs_id`, `MarkerName`, `variant`
+- Effect allele: `effect_allele`, `EA`, `A1`
+- Other allele: `other_allele`, `OA`, `A2`
+- Beta: `beta`, `BETA`, `b`, `Beta`
+- Standard error: `se`, `SE`, `standard_error`
+- P-value: `pval`, `P`, `p_value`, `Pval`
+
+**Optional but recommended**:
+- Chromosome: `chr`, `CHR`, `chromosome`
+- Position: `pos`, `BP`, `base_pair_location`, `POS`
+- Sample size: `n`, `N`, `samplesize`
+- Effect allele frequency: `eaf`, `EAF`, `freq`
+
+**Supported formats**: `.tsv`, `.tsv.gz`, `.txt`, `.txt.gz`
+
+---
+
+## 🎯 IV Selection Parameters
+
+Following genome-wide standards:
+
+- **P-value threshold**: 5×10⁻⁸ (genome-wide significance)
+- **LD clumping**: r² < 0.001, window = 10,000 kb
+- **Minimum SNPs**: 3 per analysis
+
+---
+
+## 📊 Output Files
+
+### Main Results (3 CSV files)
+
+1. **uvmr_comprehensive_results.csv** (~35 columns)
+   - All exposure-outcome pairs
+   - 5 MR methods per pair
+   - MRlap sample overlap correction
+   - FDR q-values
+   - Method concordance validation
+
+2. **mvmr_comprehensive_results.csv** (~20 columns)
+   - Covariate-adjusted independent effects
+   - 4 MVMR methods
+   - SES adjustment information
+   - FDR q-values
+
+3. **mediation_comprehensive_results.csv** (~32 columns)
+   - All exposure-mediator-outcome paths
+   - Reverse MR results
+   - Direction concordance
+   - Mediation proportions with 95% CI
+
 ---
 
 ## 🔬 Methodological Compliance
