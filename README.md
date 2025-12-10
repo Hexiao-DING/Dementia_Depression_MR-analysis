@@ -126,7 +126,7 @@ This pipeline provides a **comprehensive, methodologically rigorous** framework 
 
 ### 1️⃣ Exposure pQTLs/GWAS — Multiple Exposure Files
 
-#### (1) **Standardized Circulating Human Plasma Proteome Data (pQTLs); EUR Population N=3301**
+#### (1) **Standardized Circulating Human Plasma Proteome Data (pQTLs)**
 - `GSCT005806_GRCh37.tsv.gz`
 - `GCST90240120_GRCh37.tsv.gz` → `GCST90243401_GRCh37.tsv.gz`
 - Data pre-processing strategies: Standardize pQTLs into homogeneous format using `MungeSumstats version 1.14.1`.
@@ -147,7 +147,7 @@ This pipeline provides a **comprehensive, methodologically rigorous** framework 
 ### 2️⃣ Mediator mQTLs — Mediator Files
 ## ✨ Features
 
-#### (1) **Cerebrospinal Fluid Metabolomics Data (metabQTLs); EUR Population N= **
+#### (1) **Cerebrospinal Fluid Metabolomics Data (metabQTLs)**
 - `GCST90025999_buildGRCh37.tsv.gz` → `GCST90026336_buildGRCh37.tsv.gz`
 - Source: `https://www.ebi.ac.uk/gwas/publications/33437055`
 - **Citation**: Panyard, D. J., Kim, K. M., Darst, B. F., Deming, Y. K., Zhong, X., Wu, Y., ... & Lu, Q. (2021). Cerebrospinal fluid metabolomics identifies 19 brain-related phenotype associations. Communications biology, 4(1), 63.
@@ -157,38 +157,38 @@ This pipeline provides a **comprehensive, methodologically rigorous** framework 
 ### 3️⃣ Outcome GWAS — Outcome Files
 
 #### (1) Dementia Types *(7 traits in total, GWAS)*
-##### Dementia → `Finn-b-F5_DEMENTIA.tsv.gz`; EUR Population N= 
+##### Dementia → `Finn-b-F5_DEMENTIA.tsv.gz`
 - Source: `https://r10.risteys.finngen.fi/endpoints/F5_DEMENTIA`
 - **Citation**: Kurki, M. I., Karjalainen, J., Palta, P., Sipilä, T. P., Kristiansson, K., Donner, K. M., ... & Waring, J. (2023). FinnGen provides genetic insights from a well-phenotyped isolated population. Nature, 613(7944), 508-518.
-##### Alzheimer's Disease → `GCST90012877.tsv.gz`; EUR Population N= 
+##### Alzheimer's Disease → `GCST90012877.tsv.gz` 
 - Source: `https://www.ebi.ac.uk/gwas/publications/33589840`
 - **Citation**: Schwartzentruber, J., Cooper, S., Liu, J. Z., Barrio-Hernandez, I., Bello, E., Kumasaka, N., ... & Bassett, A. (2021). Genome-wide meta-analysis, fine-mapping and integrative prioritization implicate new Alzheimer’s disease risk genes. Nature genetics, 53(3), 392-402.
-##### Cognitive Performance → `GCST006572.tsv.gz`; EUR Population N= 
+##### Cognitive Performance → `GCST006572.tsv.gz`
 - Source: `https://www.ebi.ac.uk/gwas/publications/30038396`
 - **Citation**: Lee, J. J., Wedow, R., Okbay, A., Kong, E., Maghzian, O., Zacher, M., ... & Cesarini, D. (2018). Gene discovery and polygenic prediction from a genome-wide association study of educational attainment in 1.1 million individuals. Nature genetics, 50(8), 1112-1121.
-##### Vascular Dementia → `Finn-b-F5_VASCDEM.tsv.gz`; EUR Population N= 
+##### Vascular Dementia → `Finn-b-F5_VASCDEM.tsv.gz`
 - Source: `https://r9.risteys.finngen.fi/endpoints/F5_VASCDEM`
 - **Citation**: Kurki, M. I., Karjalainen, J., Palta, P., Sipilä, T. P., Kristiansson, K., Donner, K. M., ... & Waring, J. (2023). FinnGen provides genetic insights from a well-phenotyped isolated population. Nature, 613(7944), 508-518.
-##### Lewy Body Dementia → `GCST90001390.tsv.gz`; EUR Population N= 
+##### Lewy Body Dementia → `GCST90001390.tsv.gz`
 - Source: `https://www.ebi.ac.uk/gwas/publications/33589841`
 - **Citation**: Chia, R., Sabir, M. S., Bandres-Ciga, S., Saez-Atienzar, S., Reynolds, R. H., Gustavsson, E., ... & Dickson, D. W. (2021). Genome sequencing analysis identifies new loci associated with Lewy body dementia and provides insights into its genetic architecture. Nature genetics, 53(3), 294-303.
-##### Frontotemporal Dementia → `GCST90558311.tsv.gz`; EUR Population N= 
+##### Frontotemporal Dementia → `GCST90558311.tsv.gz`
 - Source: `https://www.ebi.ac.uk/gwas/publications/40280976`
 - **Citation**: Pottier, C., Küçükali, F., Baker, M., Batzler, A., Jenkins, G. D., van Blitterswijk, M., ... & Rademakers, R. (2025). Deciphering distinct genetic risk factors for FTLD-TDP pathological subtypes via whole-genome sequencing. Nature communications, 16(1), 3914.
-##### Undefined Dementia → `Finn_b_F5_DEMNAS.tsv.gz`; EUR Population N= 
+##### Undefined Dementia → `Finn_b_F5_DEMNAS.tsv.gz`
 - Source: `https://r12.risteys.finngen.fi/endpoints/F5_DEMNAS`
 - **Citation**: Kurki, M. I., Karjalainen, J., Palta, P., Sipilä, T. P., Kristiansson, K., Donner, K. M., ... & Waring, J. (2023). FinnGen provides genetic insights from a well-phenotyped isolated population. Nature, 613(7944), 508-518.
 
 #### (2) Depression Types *(3 traits in total, GWAS)*
-##### Depressive Disorders → `GCST90476922.tsv.gz`; EUR Population N= 
+##### Depressive Disorders → `GCST90476922.tsv.gz`
 - Source: `https://www.ebi.ac.uk/gwas/publications/39024449`
 - **Citation**: Verma, A., Huffman, J. E., Rodriguez, A., Conery, M., Liu, M., Ho, Y. L., ... & Liao, K. P. (2024). Diversity and scale: Genetic architecture of 2068 traits in the VA Million Veteran Program. Science, 385(6706), eadj1182.
 
-##### Major Depressive Disorders → `GCST90468123.tsv.gz`; EUR Population N= 
+##### Major Depressive Disorders → `GCST90468123.tsv.gz` 
 - Source: `https://www.ebi.ac.uk/gwas/publications/39789286`
 - **Citation**: Loya, H., Kalantzis, G., Cooper, F., & Palamara, P. F. (2025). A scalable variational inference approach for increased mixed-model association power. Nature Genetics, 57(2), 461-468.
 
-##### Mixed Anxiety and Depressive Disorder → `GCST90225526.tsv.gz`; EUR Population N= 
+##### Mixed Anxiety and Depressive Disorder → `GCST90225526.tsv.gz`
 - Source: `https://www.ebi.ac.uk/gwas/publications/37259642`
 - **Citation**: Brasher, M. S., Mize, T. J., Thomas, A. L., Hoeffer, C. A., Ehringer, M. A., & Evans, L. M. (2023). Testing associations between human anxiety and genes previously implicated by mouse anxiety models. Genes, Brain and Behavior, 22(6), e12851.
 
@@ -196,15 +196,15 @@ This pipeline provides a **comprehensive, methodologically rigorous** framework 
 
 ### 4️⃣ Covariate GWAS — Social Economic Status *(SES, 3 traits in total, GWAS)*
 
-#### (1) Education → `Education_GCST003676.txt.gz`; EUR Population N= 
+#### (1) Education → `Education_GCST003676.txt.gz`
 - Source: `https://www.ebi.ac.uk/gwas/publications/27225129`
 - **Citation**: Okbay, A., Beauchamp, J. P., Fontana, M. A., Lee, J. J., Pers, T. H., Rietveld, C. A., ... & Rustichini, A. (2016). Genome-wide association study identifies 74 loci associated with educational attainment. Nature, 533(7604), 539-542.
 
-#### (2) Income → `Income_GCST90566700.tsv.gz`; EUR Population N=   
+#### (2) Income → `Income_GCST90566700.tsv.gz`  
 - Source: `https://www.ebi.ac.uk/gwas/publications/40360725`
 - **Citation**: Xia, C., Lu, Y., Zhou, Z., Marchi, M., Kweon, H., Ning, Y., ... & Hill, W. D. (2025). Deciphering the influence of socioeconomic status on brain structure: insights from Mendelian randomization. Molecular Psychiatry, 1-14.
 
-#### (3) Occupation → `Occupation_GCST90566702.tsv.gz`; EUR Population N= 
+#### (3) Occupation → `Occupation_GCST90566702.tsv.gz`
 - Source:  `https://www.ebi.ac.uk/gwas/publications/40360725`
 - **Citation**: Xia, C., Lu, Y., Zhou, Z., Marchi, M., Kweon, H., Ning, Y., ... & Hill, W. D. (2025). Deciphering the influence of socioeconomic status on brain structure: insights from Mendelian randomization. Molecular Psychiatry, 1-14.
 
