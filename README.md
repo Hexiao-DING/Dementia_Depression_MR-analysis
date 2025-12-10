@@ -226,7 +226,7 @@ This pipeline provides a **comprehensive, methodologically rigorous** framework 
 
     > Sun, B. B., Maranville, J. C., Peters, J. E., Stacey, D., Staley, J. R., Blackshaw, J., ... & Butterworth, A. S. (2018). Genomic atlas of the human plasma proteome. *Nature*, 558(7708), 73-79.
 
-#### (2) Standardized Circulating Metabolic Biomarkers Data (GWAS); EUR Population N=
+#### (2) Standardized Circulating Metabolic Biomarkers Data (GWAS)
 
 * **Files:** `GCST90301941.tsv` → `GCST90302173.tsv`
 
@@ -238,7 +238,7 @@ This pipeline provides a **comprehensive, methodologically rigorous** framework 
 
     > Karjalainen, M. K., Karthikeyan, S., Oliver-Williams, C., Sliz, E., Allara, E., Fung, W. T., ... & Kettunen, J. (2024). Genome-wide characterization of circulating metabolic biomarkers. *Nature*, 628(8006), 130-138.
 
-#### (3) Circulating Inflammatory Proteins Data (pQTLs); EUR Population N=
+#### (3) Circulating Inflammatory Proteins Data (pQTLs)
 
 * **Files:** `GCST90274758.tsv.gz` → `GCST90274848.tsv.gz`
 
@@ -265,33 +265,21 @@ This pipeline provides a **comprehensive, methodologically rigorous** framework 
 #### (1) Dementia Types *(7 traits in total, GWAS)*
 
 | Trait | File | Source & Citation |
-
 | :--- | :--- | :--- |
-
 | **Dementia** | `Finn-b-F5_DEMENTIA.tsv.gz` | [FinnGen](https://r10.risteys.finngen.fi/endpoints/F5_DEMENTIA) - Kurki et al. (2023) *Nature* |
-
 | **Alzheimer's** | `GCST90012877.tsv.gz` | [GWAS Catalog](https://www.ebi.ac.uk/gwas/publications/33589840) - Schwartzentruber et al. (2021) *Nat Genet* |
-
 | **Cognitive Perf.** | `GCST006572.tsv.gz` | [GWAS Catalog](https://www.ebi.ac.uk/gwas/publications/30038396) - Lee et al. (2018) *Nat Genet* |
-
 | **Vascular Dem.** | `Finn-b-F5_VASCDEM.tsv.gz` | [FinnGen](https://r9.risteys.finngen.fi/endpoints/F5_VASCDEM) - Kurki et al. (2023) *Nature* |
-
 | **Lewy Body Dem.** | `GCST90001390.tsv.gz` | [GWAS Catalog](https://www.ebi.ac.uk/gwas/publications/33589841) - Chia et al. (2021) *Nat Genet* |
-
 | **Frontotemporal** | `GCST90558311.tsv.gz` | [GWAS Catalog](https://www.ebi.ac.uk/gwas/publications/40280976) - Pottier et al. (2025) *Nat Comms* |
-
 | **Undefined Dem.** | `Finn_b_F5_DEMNAS.tsv.gz` | [FinnGen](https://r12.risteys.finngen.fi/endpoints/F5_DEMNAS) - Kurki et al. (2023) *Nature* |
 
 #### (2) Depression Types *(3 traits in total, GWAS)*
 
 | Trait | File | Source & Citation |
-
 | :--- | :--- | :--- |
-
 | **Depressive Dis.** | `GCST90476922.tsv.gz` | [GWAS Catalog](https://www.ebi.ac.uk/gwas/publications/39024449) - Verma et al. (2024) *Science* |
-
 | **Major DD** | `GCST90468123.tsv.gz` | [GWAS Catalog](https://www.ebi.ac.uk/gwas/publications/39789286) - Loya et al. (2025) *Nat Genet* |
-
 | **Mixed Anxiety/Dep** | `GCST90225526.tsv.gz` | [GWAS Catalog](https://www.ebi.ac.uk/gwas/publications/37259642) - Brasher et al. (2023) *Genes Brain Behav* |
 
 ### 4️⃣ Covariate GWAS — Social Economic Status *(SES, 3 traits in total, GWAS)*
@@ -427,37 +415,21 @@ This pipeline implements methods following the rigorous standards established in
 ### Implementation Checklist
 
 | Component | Status | Description |
-
 |:----------|:------:|:------------|
-
 | **UVMR Methods** | ✅ | IVW, Weighted Median, MR-Egger, Weighted Mode, Simple Mode |
-
 | **MVMR Methods** | ✅ | IVW, Median, Egger, Lasso |
-
 | **MR-PRESSO** | ✅ | Outlier detection and correction |
-
 | **MRlap** | ✅ | Sample overlap correction with automatic detection |
-
 | **SES Covariate Adjustment** | ✅ | Education, Income, Occupation (mandatory for MVMR) |
-
 | **Combined IV Selection** | ✅ | SNPs significant in either exposure or mediator GWAS |
-
 | **FDR Correction** | ✅ | Benjamini-Hochberg multiple testing correction |
-
 | **Method Concordance** | ✅ | Validation across sensitivity methods |
-
 | **Reverse MR** | ✅ | Bidirectionality testing |
-
 | **Direction Concordance** | ✅ | Pathway consistency validation |
-
 | **F-statistics** | ✅ | Instrument strength assessment |
-
 | **Cochran's Q** | ✅ | Heterogeneity testing |
-
 | **Conditional F-statistics** | ✅ | MVMR instrument strength |
-
 | **Mediation Analysis** | ✅ | Complete pathway decomposition |
-
 | **Mediation Proportion** | ✅ | Indirect effect quantification with 95% CI |
 
 **Total Compliance**: ✅ **15/15 Core Requirements** (100%)
@@ -761,13 +733,9 @@ robust <- uvmr[
 All results are saved in `results_trial/`:
 
 | File | Contents | Columns | Description |
-
 |:-----|:---------|:--------|:------------|
-
 | **uvmr_comprehensive_results.csv** | UVMR results | ~35 | All exposure-outcome pairs with 5 MR methods |
-
 | **mvmr_comprehensive_results.csv** | MVMR results | ~20 | Covariate-adjusted independent effects |
-
 | **mediation_comprehensive_results.csv** | Mediation results | ~32 | All exposure-mediator-outcome pathways |
 
 ### Key Output Columns
@@ -775,57 +743,35 @@ All results are saved in `results_trial/`:
 #### UVMR Results
 
 | Column | Description |
-
 |:-------|:------------|
-
 | `b`, `se`, `pval` | Standard MR effect estimates |
-
 | `q_value` | FDR-corrected p-value |
-
 | `concordance_validated` | Validation by sensitivity methods |
-
 | `F_statistic` | Instrument strength |
-
 | `mrlap_corrected_effect` | MRlap-corrected effect |
-
 | `mrlap_corrected_pval` | MRlap-corrected p-value |
-
 | `mrlap_diff_pval` | Significance of correction |
 
 #### MVMR Results
 
 | Column | Description |
-
 |:-------|:------------|
-
 | `beta_mvmr`, `se_mvmr`, `pval_mvmr` | MVMR effect estimates |
-
 | `q_value` | FDR-corrected p-value |
-
 | `adjusted_for` | **CRITICAL**: Must include SES covariates |
-
 | `n_covariates` | **CRITICAL**: Must be 3 (Education, Income, Occupation) |
-
 | `method` | MVMR method (IVW, Median, Egger, Lasso) |
-
 | `conditional_F_statistic` | MVMR instrument strength |
 
 #### Mediation Results
 
 | Column | Description |
-
 |:-------|:------------|
-
 | `beta_exp_med` | Exposure → Mediator effect |
-
 | `beta_med_out_direct` | Mediator → Outcome (direct) effect |
-
 | `beta_exp_out_total` | Exposure → Outcome (total) effect |
-
 | `bidirectional` | **CRITICAL**: Must be "No_Unidirectional" |
-
 | `direction_concordant` | **CRITICAL**: Must be TRUE |
-
 | `mediation_proportion` | Mediation proportion (0-1) with 95% CI |
 
 ---
@@ -997,25 +943,15 @@ Following standard practice:
 ### Common Issues and Solutions
 
 | Issue | Solution |
-
 |:------|:---------|
-
 | **PLINK not found** | Ensure PLINK is installed and added to system PATH, or specify full path in scripts |
-
 | **1000G.EUR.QC files missing** | Download EUR reference panel files (.bed, .bim, .fam) and update path in scripts |
-
 | **MRlap reference data missing** | Download `1000G_Phase3_ldscores` and `1000G_Phase3_hm3` from MRlap GitHub |
-
 | **MRlap fails to detect sample sizes** | Ensure GWAS files contain `N` or `N_cases`/`N_controls` columns |
-
 | **MVMR fails with SES covariates** | Verify all 3 SES files are in `Covariates_SES/` directory |
-
 | **No instruments found** | Check p-value threshold (default: 5e-8) and LD clumping parameters |
-
 | **MR-PRESSO errors** | Ensure sufficient instruments (minimum 4 SNPs) |
-
 | **Memory issues with MRlap** | Increase RAM allocation or use smaller datasets |
-
 | **F-statistics < 10** | Remove weak instruments or use more lenient thresholds |
 
 ### Getting Help
@@ -1067,15 +1003,10 @@ Please cite the methodological references:
 ## 🙏 Acknowledgements
 
 | Role | Name | Affiliation |
-
 |:-----|:-----|:------------|
-
 | **Contributors** | Hexiao Ding | The Hong Kong Polytechnic University |
-
 | **Contributors** | Jing Lan | The Hong Kong Polytechnic University |
-
 | **Contributors** | Na Li | Sichuan University |
-
 | **Supervisor** | Dr. Jung Sun Yoo | The Hong Kong Polytechnic University |
 
 **Institutions**:
@@ -1084,9 +1015,9 @@ Please cite the methodological references:
 
 * Sichuan University
 
-**Version**: 2.6
+**Version**: 2.7
 
-**Last Updated**: 2025-11-23
+**Last Updated**: 2025-12-10
 
 ### Methodological Acknowledgments
 
