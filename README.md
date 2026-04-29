@@ -163,10 +163,7 @@ generate_summary_report()
 
 ---
 
-## 🗂️ Data Atlas — Most Data are European Ancestry
-
-> [!NOTE]
-> The original project labels the data requirement as **“Most data are EU populations.”** In this README, the same information is presented as **mostly European ancestry** summary statistics to make the ancestry note clearer for GitHub readers.
+## 🗂️ Data Atlas — Data are European Ancestry
 
 ### A. Exposure Layer — pQTLs and GWAS Summary Statistics
 
